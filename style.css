@@ -44,7 +44,7 @@ body{
 }
 
 #labelSearch{
-    font-size: 130%;
+    font-size: 100%;
     color: white;
 }
 
@@ -82,10 +82,13 @@ body{
 
 #input-search{
     width: 50%;
-    font-size: 15px;
+    font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
+    border: 2px solid white;
+
 }
+
 .search{
     display: none;
 }
@@ -203,6 +206,16 @@ footer{
 @media screen and (max-width:1024px) {
     .inf-world-pokemon{
         display: block;
+    }
+
+    #input-search{
+        width: 60%;
+        font-size: 20px;
+    }
+
+    .selects{
+        font-size: 120%;
+        width: 15%;
     }
 
     .one-container{
