@@ -18,7 +18,6 @@ const inputSearch = document.getElementById("input-search");
 const inicialDisplay = document.querySelector(".inf-world-pokemon");
 const selects = document.querySelector(".btn-select");
 const search = document.querySelector(".search");
-const btnScreenSecond = document.querySelector(".btnsecond");
 
 btnStart.addEventListener("click", (event) => {
   location.reload(event);
